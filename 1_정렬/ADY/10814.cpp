@@ -19,7 +19,7 @@ int main(){
 		cin>>member[i].first>>member[i].second;
 	}
 	
-	sort(member.begin(), member.end(), compare);
+	stable_sort(member.begin(), member.end(), compare);
 	
 	for(int j=0; j<N; j++){
 		cout<<member[j].first<<' '<<member[j].second<<'\n';
