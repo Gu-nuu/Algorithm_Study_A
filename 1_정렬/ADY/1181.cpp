@@ -7,10 +7,7 @@ using namespace std;
 
 bool compare(string a, string b){
 	if(a.length() == b.length()){
-		for(int i=0; i<a.length(); i++){
-			if(a[i] != b[i])
-				return a[i] < b[i];
-		}
+		return a.compare(b) < 0;
 	}
 	return a.length() < b.length();
 		
@@ -31,7 +28,7 @@ int main(){
 	
 	cout<<wlist[0]<<'\n';
 	
-	for(int j=1; j<=N; j++){
+	for(int j=1; j<N; j++){
 		if(wlist[j-1] == wlist[j])
 			continue;
 		cout<<wlist[j]<<'\n';
