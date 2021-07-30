@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <utility>
 
 using namespace std;
 
@@ -12,13 +11,13 @@ int main(){
 	vector<pair<int, int> > dot(N);
 	
 	for(int i=0; i<N; i++){
-		cin>>dot[i].second>>dot[i].first;
+		cin>>dot[i].first>>dot[i].second;
 	}
 	
 	sort(dot.begin(), dot.end());
 	
 	for(int j=0; j<N; j++){
-		cout<<dot[j].second<<' '<<dot[j].first<<'\n';
+		cout<<dot[j].first<<' '<<dot[j].second<<'\n';
 	}
 	
 	return 0;
