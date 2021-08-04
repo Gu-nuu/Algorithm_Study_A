@@ -1,3 +1,5 @@
+//메모리 감소, 시간 증가
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -29,7 +31,7 @@ int main()
 	int M, *B;
 	string line;
 
-	//A�迭 �Է� �ޱ�
+	//A배열 입력 받기
 	cin >> N;
 	A = new int[N];
 
@@ -37,11 +39,11 @@ int main()
 		cin >> A[i];
 	}
 
-	//B�迭 �Է� �ޱ�
+	//B배열 입력 받기
 	cin >> M;
 	B = new int[M];
 
-	//cin �ݺ� ȣ��
+	//cin 반복 호출
 	for (int i = 0; i < M; i++) {
 		cin >> B[i];
 	}
