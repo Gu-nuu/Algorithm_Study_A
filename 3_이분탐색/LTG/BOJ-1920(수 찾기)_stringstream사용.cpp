@@ -1,3 +1,5 @@
+//ë©”ëª¨ë¦¬ ì¦ê°€, ì‹œê°„ ë‹¨ì¶•
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -29,11 +31,11 @@ int main()
 	int M, *B;
 	string line;
 
-	//A¹è¿­ ÀÔ·Â ¹Ş±â
+	//Aë°°ì—´ ì…ë ¥ ë°›ê¸°
 	cin >> N;
 	A = new int[N];
 
-	//cin ¹İº¹ È£ÃâÀ» ÇÇÇÏ±â À§ÇØ ÇÑ ÁÙ·Î ÀÔ·Â¹Ş¾Æ Ã³¸®
+	//cin ë°˜ë³µ í˜¸ì¶œì„ í”¼í•˜ê¸° ìœ„í•´ í•œ ì¤„ë¡œ ì…ë ¥ë°›ì•„ ì²˜ë¦¬
 	cin.ignore();
 	getline(cin, line);
 	stringstream nums(line);
@@ -42,7 +44,7 @@ int main()
 		nums >> A[i];
 	}
 
-	//B¹è¿­ ÀÔ·Â ¹Ş±â
+	//Bë°°ì—´ ì…ë ¥ ë°›ê¸°
 	cin >> M;
 	B = new int[M];
 
