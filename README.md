@@ -8,7 +8,7 @@
 
 3. 주어진 문제 해결이 모두 끝나면 임시 파일 **temp.txt** 삭제
 
-4. **개인 브랜치**에서 **메인 branch**로 <code>**merge**</code>
+4. **개인 branch**에서 **메인 branch**로 <code>**merge**</code>
 
 5. 다음 유형의 문제 폴더가 올라오면 **메인 branch**에서 **개인 branch**로 <code>**merge**</code> 후 진행
 
