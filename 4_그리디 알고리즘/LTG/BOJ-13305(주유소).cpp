@@ -26,7 +26,7 @@ int main()
 		current = cities[i];
 		total_cost += current * roads[i];
 		//현재 도시보다 저렴한 도시 직전까지 거리 누적 후 한번에 주유
-		for (j = 1; j < n-i-1; j++) {
+		for (j = 1; j < N-i-1; j++) {
 			if (current <= cities[i + j])
 				total_cost += current * roads[i + j];
 			else
